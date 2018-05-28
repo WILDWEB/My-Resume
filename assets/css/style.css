@@ -353,11 +353,14 @@ footer .cv-pdf i:hover {
 
 .contact-heading {
     font-family: "Exo", sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     margin-top: 25px;
     margin-bottom: 20px;
 }
 
+::placeholder {
+    color:red;
+}
 
 .center-form {
     padding-top: 10px;
@@ -409,5 +412,6 @@ button[type="submit"] {
         min-height: 240px;
         margin: 0 auto;
         max-width: 50%;
+        color: red;
     }
 }
