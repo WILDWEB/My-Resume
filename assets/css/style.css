@@ -22,6 +22,14 @@
     background-color: #049f7f;
 }
 
+.bg-color-conferences {
+    background-color: #eeeeee;
+}
+
+.bg-color-groups {
+    background-color: #ffffff
+}
+
 .bg-color-contact {
     background-color: #ffffff;
 }
@@ -40,6 +48,14 @@
 
 .ui-menu-color-download {
     background-color: #6a6a69;
+}
+
+.ui-menu-color-github {
+    background-color: #1c4a6c;
+}
+
+.ui-menu-color-interests {
+    background-color: #e74c3c;
 }
 
 
@@ -82,7 +98,7 @@ h4 {
 .history-heading {
     font-family: "Exo", sans-serif;
     font-family: 100;
-    color
+    
 }
 .section-heading {
     font-family: "Exo", sans-serif;
@@ -395,6 +411,8 @@ button[type="submit"] {
 .progress-section{
     margin: 40px 20px;
 }
+
+#map {min-height: 360px;}
 
 
 
