@@ -62,8 +62,12 @@
 body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
-    background-color: #870303;
+    background-color: #000000;
     color: #555555;
+}
+
+placeholder {
+    color: #000000;
 }
 
 
@@ -430,6 +434,6 @@ button[type="submit"] {
         min-height: 240px;
         margin: 0 auto;
         max-width: 50%;
-        color: red;
+        color: #000000;
     }
 }
