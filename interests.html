@@ -54,10 +54,10 @@
     </header>
     <section class="container-fluid">
         <div class="row row-table">
-            <div class="col-xs-12 col-sm-12 col-md-4 bg-color-conferences section-column">
+            <div class="col-xs-12 col-sm-12 col-md-4 bg-color-location section-column">
                 <div class="row">
                     <div class="col-md-12">
-                        <h3 class="section-heading uppercase">Conferences and Meetups attended</h3>
+                        <h3 class="section-heading uppercase">WildWeb Developments Location</h3>
                     </div>
                 </div>
                 <div id="map"></div>
@@ -163,18 +163,11 @@
         </div>
     </footer>
     <script>
-        function initMap() {
-            var map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 3,
-                center: {
-                    lat: 46.619261,
-                    lng: -33.134766
-                }
-            });
-        }
+       
     </script>
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKHonAFqlmOzEHxzku6EsAqsT-M__4_QA&callback=initMap"></script>
+    <script src="/assets/js/maps.js"></script>
 </body>
 
 </html>
