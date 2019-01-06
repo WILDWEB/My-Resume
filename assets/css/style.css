@@ -120,7 +120,7 @@ header {
 }
 
 .logo {
-   background: url("/assets/css/images/me.jpg");
+   background: url("images/me.jpg");
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
